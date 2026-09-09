@@ -1,25 +1,19 @@
 # Offhand Ghost
 
-A [RuneLite](https://runelite.net) plugin that fills the empty equipment slot a two-handed item
-blocks with a faded copy of that item's sprite — the way many RPGs indicate "this slot is taken by
-what you're already holding" rather than leaving a bare, ambiguous square.
+A [RuneLite](https://runelite.net) plugin. Wield a two-handed weapon and the shield slot it blocks
+shows a faded copy of that weapon instead of an empty square. It works the other way round too, for
+items that sit in the shield slot and block the weapon slot.
 
-Wield a godsword and the shield slot shows a ghosted godsword; the same works in reverse for an
-item that sits in the shield slot and blocks the weapon slot.
-
-It draws on the worn-equipment tab and, optionally, the Equipment Stats interface.
+The ghost is drawn on both the worn equipment tab and the Equipment Stats interface. The empty-slot
+glyph behind it is hidden, the same as when a real item is equipped.
 
 ## Config
 
 | Option | Default | Description |
 | --- | --- | --- |
-| Opacity | 50% | How strongly the ghosted item is drawn |
+| Opacity | 50% | How strongly the ghost is drawn |
 | Drop shadow | off | Draw a shadow behind the ghost so it separates from the slot |
 | Shadow opacity | 25% | How dark that shadow is |
-
-The empty-slot glyph behind the ghost is always hidden, matching what the game does when a real
-item occupies the slot, and the ghost is always drawn on both the worn-equipment tab and the
-Equipment Stats interface.
 
 ## Building
 

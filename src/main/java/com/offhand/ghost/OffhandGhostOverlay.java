@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2026, dot <joao.t.m@proton.me>
+ * Copyright (c) 2026, jptmiranda <joao.t.m@proton.me>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
